@@ -1,0 +1,33 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: auto;
+}
+    #Header > #gmail{
+        margin-right: 30px;
+    }
+    #Header > #image{
+        margin-right: 30px;
+    }
+    #Header > #menu{
+        background-size: 50%;
+    }
+    #Header > #icon{
+        margin-left: 30px;
+    }
+
+#ggbox{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    margin-top: 300px;
+}
+    #ggbox > #google{
+        justify-content: center;
+    }
